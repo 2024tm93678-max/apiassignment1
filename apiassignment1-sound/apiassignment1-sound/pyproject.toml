@@ -1,0 +1,20 @@
+[project]
+name = "apiassignment1-sound"
+version = "1.0.0"
+description = "UoB API assignment: OpenAPI + Kong + REST/RPC/GraphQL demo"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.8.0",
+  "strawberry-graphql>=0.250.0",
+  "python-multipart>=0.0.9",
+  "requests>=2.33.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+  "httpx>=0.27.0",
+  "ruff>=0.6.0",
+]
+
